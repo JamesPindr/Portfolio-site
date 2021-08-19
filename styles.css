@@ -1,0 +1,158 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: "raleway", sans-serif;
+}
+p, h1 {
+  margin: 0;
+}
+.container {
+  max-width: 1500px;
+  margin: auto;
+  padding: 0rem 3rem;
+}
+.text-logo {
+  color: #526AE3;
+  align-self: center;
+  font-weight: 700;
+  font-size: 25px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0;
+  align-items: center;
+}
+.nav-bar {
+  list-style: none;
+  display: flex;
+  color: #707070;
+  font-weight: 600;
+  width: 220px;
+  justify-content: space-between;
+}
+.nav-bar li {
+  transition: 0.25s;
+}
+.nav-bar li:hover {
+  color: #171717;
+}
+.intro-text {
+  max-width: 75%;
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #707070;
+}
+.placeholder {
+  text-align: center;
+  padding: 18rem 0;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  color: #fff;
+  transition: 0.25s;
+}
+.placeholder:hover {
+  filter: brightness(0.5);
+}
+.portfolio-grid-hp {
+  margin-top: 6rem;
+  margin-bottom: 10rem;
+}
+.placeholder-4 {
+  background: #526AE3;
+}
+.placeholder-3 {
+  background: #7791EA;
+}
+.placeholder-2 {
+  background: #0D734D;
+}
+.placeholder-1 {
+  background: #53606F;
+}
+.contact-section {
+  background: #F4F4F4;
+  padding: 10rem 0;
+}
+.contact-heading {
+  margin-bottom: 3rem;
+}
+.footer {
+  background: #526AE3;
+  padding: 12rem 0 4rem;
+  color: #fff;
+}
+
+/*new*/
+.grid-img img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+.grid-section {
+  margin: 7rem 0 14rem 0;
+}
+.grid-text {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  opacity: 0;
+  transition: 0.4s;
+  margin: 0;
+  flex-direction: column;
+}
+.grid-container {
+  position: relative;
+  margin-bottom: 3rem;
+}
+.grid-text:hover {
+  opacity: 1;
+  background: #000000c2;
+  border-radius: 10px;
+}
+.grid-title {
+  margin-bottom: 1rem;
+}
+.grid-btn-bg {
+  background: #526AE3;
+  opacity: 1;
+  border-radius: 10px;
+  transition: unset;
+}
+.grid-btn-bg:hover {
+  opacity: unset;
+  background: #526AE3;
+}
+.grid-btn {
+  margin: 0;
+}
+.contact-info {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.contact-body {
+  margin-bottom: 2rem;
+}
+.contact-me-container {
+  margin-bottom: 6rem;
+}
+.cv-container, .contact-me-container {
+  max-width: 1300px;
+}
+
+/*portfolio*/
+.page-header {
+  text-align: center;
+}
+.grid-section-portfolio {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
